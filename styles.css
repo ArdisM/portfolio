@@ -1,0 +1,101 @@
+body {
+  background-image: url("img/polygonpic.jpg");/* background provided by  http://www.graphicsfuel.com/ */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #283018;
+  background-attachment: fixed;
+  font-family: 'Josefin Slab', serif;
+  color: #6534ff;
+  padding: 0;
+  margin: 0;
+}
+#aboutme{
+  padding-top: 130px;
+
+}
+#bio{
+ padding-top: 26px;
+
+}
+
+#title::first-letter, .section1::first-letter, .section2::first-letter, .section3::first-letter {
+
+    color: #00c853;
+}
+p#aboutme{
+padding-top: 106px
+color: white;
+
+}
+
+#pic{
+      /*padding-top: 106px;*/
+}
+.button, #email{
+  background-color: #1b5e20;
+  color: white;
+}
+.button:hover, #email:hover {
+    color: #76ff03;
+  }
+
+header {
+
+  height: 74px;
+  /* border: 2px solid #a1a1a1; */
+  background: #dddddd;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+
+  /* border-radius: 25px; */
+
+}
+.container{
+  z-index: 1:
+}
+
+#title {
+  float: left;
+margin-left: 20px;
+font-family: 'Josefin Slab', serif;
+margin-top: 7px;
+}
+
+nav {
+  float: right;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+
+p{
+  font-family: 'Contrail One', cursive;
+}
+
+#avatar {
+  margin-left: 31%;
+  border-radius: 150%;
+}
+
+hr {
+  border-color: limegreen;
+}
+.icon{
+  text-align: center;
+}
+#github{
+  margin-bottom: 63px;
+  width: 100px;
+  height: 100px;
+}
+#email{
+  background-color: #1b5e20
+  color: white;
+}
+.emaildiv{
+  text-align: center;
+}
+#contactme:hover{
+  color: red;
+}
