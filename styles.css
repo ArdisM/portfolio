@@ -99,3 +99,7 @@ hr {
 #contactme:hover{
   color: red;
 }
+.project{
+  width: 400px;
+  height: 300px;
+}
